@@ -10,7 +10,7 @@ Encrypt-ETH-Proxy/Pool-Release
 
 3.大幅优化流量，所有重复内容在server做缓存，client只接受job和提交work
 
-4.加密采用WebSocket Over Tls,可走cdn
+4.加密采用WebSocket Over Tls,可走cdn，即client可以通过cdn来链接forward
 
 ## 进度
 已完成client和forward,server完成90%还差细节bug修复
