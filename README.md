@@ -12,5 +12,7 @@ Encrypt-ETH-Proxy/Pool-Release
 
 4.加密采用WebSocket Over Tls,可走cdn，即client可以通过cdn来链接forward
 
+5.server用Worker做用户名，非注册Worker丢弃链接，防止替换方式的暗抽，需要填写进client配置中
+
 ## 进度
 已完成client和forward,server完成90%还差细节bug修复
